@@ -1,5 +1,5 @@
 /* @preserve
- * Leaflet 1.2.0+Detached: 1ac320ba232cb85b73ac81f3d82780c9d07f0d4e.1ac320b, a JS library for interactive maps. http://leafletjs.com
+ * Leaflet 1.2.0, a JS library for interactive maps. http://leafletjs.com
  * (c) 2010-2017 Vladimir Agafonkin, (c) 2010-2011 CloudMade
  */
 if(Meteor.isClient) {
@@ -9,7 +9,7 @@ if(Meteor.isClient) {
 	(factory((global.L = {})));
 }(this, (function (exports) { 'use strict';
 
-var version = "1.2.0+HEAD.1ac320b";
+var version = "1.2.0";
 
 /*
  * @namespace Util
@@ -13607,5 +13607,5 @@ exports.Map = Map;
 exports.map = createMap;
 
 })));
-//# sourceMappingURL=leaflet-src.js.map
 }
+//# sourceMappingURL=leaflet-src.js.map
